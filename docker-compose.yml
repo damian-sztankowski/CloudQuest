@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend-app
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+
+  backend:
+    build:
+      context: ./backend-app
+      dockerfile: Dockerfile  # Specify if your Dockerfile has a different name
+    ports:
+      - "5000:5000"
+    networks:
+      - app-network
+    volumes:
+      - ./terraform-modules:/app/terraform-modules  # Mount the terraform-modules directory
+
+networks:
+  app-network:
+    driver: bridge
