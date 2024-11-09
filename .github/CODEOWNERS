@@ -1,0 +1,6 @@
+# This is a CODEOWNERS file
+# Each line is a file pattern followed by one or more owners.
+# Owners must approve any changes to the matching files before they can be merged.
+
+# Make damian-sztankowski the owner of all files in the repository
+* @damian-sztankowski
