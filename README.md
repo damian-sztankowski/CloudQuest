@@ -1,5 +1,5 @@
 <p align="center">
-<img src="frontend-app/src/assets/craft-logo2.svg" alt="description" width="300" height="300" align="center"><p>
+<img src="damian-sztankowski/cloud-craft/blob/main/craft-logo2.svg" alt="description" width="300" height="300" align="center"><p>
 
 # CloudCraft: Real-World Engineer Simulator
 
