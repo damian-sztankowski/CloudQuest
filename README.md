@@ -1,13 +1,13 @@
 <p align="center">
 <img src="images/craft-logo2.svg" alt="description" width="300" height="300" align="center"><p>
 
-# CloudCraft: Real-World Engineer Simulator
+# CloudTinker: Real-World Engineer Simulator
 
-Welcome to **CloudCraft**, the interactive cloud engineering simulator designed to help you learn real-world cloud architecture skills through hands-on challenges. Whether you're deploying infrastructure with Terraform, setting up CI/CD pipelines, or managing IAM roles, CloudCraft offers a range of challenges to enhance your cloud knowledge and proficiency..
+Welcome to **CloudTinker**, the interactive cloud engineering simulator designed to help you learn real-world cloud architecture skills through hands-on challenges. Whether you're deploying infrastructure with Terraform, setting up CI/CD pipelines, or managing IAM roles, CloudCraft offers a range of challenges to enhance your cloud knowledge and proficiency..
 
 ## Table of Contents
 
-- [CloudCraft: Real-World Engineer Simulator](#cloudcraft-real-world-engineer-simulator)
+- [CloudTinker: Real-World Engineer Simulator](#cloudcraft-real-world-engineer-simulator)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Getting Started](#getting-started)
@@ -112,7 +112,7 @@ This will start the backend on ***localhost:5000***.
 ---
 
 ## Adding New Challenges
-To add new challenges to the CloudCraft platform, follow these steps:
+To add new challenges to the CloudTinker platform, follow these steps:
 
 1. Add new assets (if applicable):
 
