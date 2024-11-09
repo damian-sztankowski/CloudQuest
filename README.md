@@ -171,7 +171,7 @@ The backend service exposes several endpoints to handle the deployment and destr
     * This endpoint triggers a Terraform destroy operation to clean up resources.
 
 ## Contribution Guidelines
-We encourage contributions to improve the project. Please refer to the [Contribution Guidelines](/contribution.md) for information on how to contribute, report bugs, request features, or add new challenges.
+We encourage contributions to improve the project. Please refer to the [Contribution Guidelines](/CONTRIBUTION.md) for information on how to contribute, report bugs, request features, or add new challenges.
 
 ## License
 This project is licensed under the MIT License.
