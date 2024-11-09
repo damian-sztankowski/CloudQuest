@@ -1,13 +1,13 @@
 <p align="center">
 <img src="images/craft-logo2.svg" alt="description" width="300" height="300" align="center"><p>
 
-# CloudTinker: Real-World Engineer Simulator
+# CloudQuest: Real-World Engineer Simulator
 
-Welcome to **CloudTinker**, the interactive cloud engineering simulator designed to help you learn real-world cloud architecture skills through hands-on challenges. Whether you're deploying infrastructure with Terraform, setting up CI/CD pipelines, or managing IAM roles, CloudCraft offers a range of challenges to enhance your cloud knowledge and proficiency..
+Welcome to **CloudQuest**, the interactive cloud engineering simulator designed to help you learn real-world cloud architecture skills through hands-on challenges. Whether you're deploying infrastructure with Terraform, setting up CI/CD pipelines, or managing IAM roles, CloudQuest offers a range of challenges to enhance your cloud knowledge and proficiency..
 
 ## Table of Contents
 
-- [CloudTinker: Real-World Engineer Simulator](#cloudcraft-real-world-engineer-simulator)
+- [CloudQuest: Real-World Engineer Simulator](#cloudcraft-real-world-engineer-simulator)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Getting Started](#getting-started)
@@ -36,7 +36,7 @@ Welcome to **CloudTinker**, the interactive cloud engineering simulator designed
 
 ### Prerequisites
 
-To run CloudCraft locally, ensure you have the following tools installed:
+To run CloudQuest locally, ensure you have the following tools installed:
 
 - [Node.js](https://nodejs.org/en/download/)
 - [npm](https://www.npmjs.com/get-npm) or [Yarn](https://yarnpkg.com/getting-started/install)
