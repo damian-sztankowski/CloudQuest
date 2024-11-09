@@ -1,5 +1,5 @@
 <p align="center">
-<img src="craft-logo2.svg" alt="description" width="300" height="300" align="center"><p>
+<img src="images/craft-logo2.svg" alt="description" width="300" height="300" align="center"><p>
 
 # CloudCraft: Real-World Engineer Simulator
 
