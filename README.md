@@ -3,7 +3,7 @@
 
 # CloudQuest: Real-World Engineer Simulator
 
-Welcome to **CloudQuest**, the interactive cloud engineering simulator designed to help you learn real-world cloud architecture skills through hands-on challenges. Whether you're deploying infrastructure with Terraform, setting up CI/CD pipelines, or managing IAM roles, CloudQuest offers a range of challenges to enhance your cloud knowledge and proficiency..
+Welcome to **CloudQuest**, the interactive cloud engineering simulator designed to help you learn real-world cloud architecture skills through hands-on challenges. Whether you're deploying infrastructure with Terraform, setting up CI/CD pipelines, or managing IAM roles, CloudQuest offers a range of challenges to enhance your cloud knowledge and proficiency.
 
 ## Table of Contents
 
