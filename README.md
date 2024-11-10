@@ -7,7 +7,7 @@ Welcome to **CloudQuest**, the interactive cloud engineering simulator designed 
 
 ## Table of Contents
 
-- [CloudQuest: Real-World Engineer Simulator](#cloudcraft-real-world-engineer-simulator)
+- [CloudQuest: Real-World Engineer Simulator](#CloudQuest-real-world-engineer-simulator)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Getting Started](#getting-started)
@@ -15,8 +15,6 @@ Welcome to **CloudQuest**, the interactive cloud engineering simulator designed 
     - [Installation](#installation)
   - [Running the Project](#running-the-project)
   - [Adding New Challenges](#adding-new-challenges)
-  - [API Documentation](#api-documentation)
-    - [Backend API Endpoints](#backend-api-endpoints)
   - [Contribution Guidelines](#contribution-guidelines)
   - [License](#license)
 
@@ -43,13 +41,13 @@ To run CloudQuest locally, ensure you have the following tools installed:
 - [Python 3.x](https://www.python.org/downloads/) (for backend services)
 - [Terraform](https://www.terraform.io/downloads.html)
 
-### Installation
+### Local Installation
 
 1. **Clone the repository**:
 
    ```bash
-    git clone https://github.com/your-username/cloudcraft.git
-    cd cloudcraft
+    git clone https://github.com/damian-sztankowski/CloudQuest.git
+    cd cloudquest
     ```
 2. Install frontend dependencies:
 
@@ -62,15 +60,15 @@ To run CloudQuest locally, ensure you have the following tools installed:
         cd ../backend-app
         pip install -r requirements.txt
     ```
-4. Install Terraform modules:
-In the ***/terraform-modules*** directory, ensure you have the necessary Terraform configuration files set up for deployments.
+---
+
 
 ## Project Structure
 
-The CloudCraft project is structured into several main directories:
+The CloudQuest project is structured into several main directories:
     
 ```bash
-    cloudcraft/
+    cloudquest/
     │
     ├── frontend-app/             # Vue.js frontend code
     │   ├── src/
@@ -119,7 +117,7 @@ To add new challenges to the CloudTinker platform, follow these steps:
    * Place any new icons or assets for your challenge in the /src/assets/ folder.
 2. Add the challenge to the data file:
 
-    * Update the challenge list in /src/components/ChallengeData.vue by adding a new entry with your challenge details (title, description, technologies).
+    * Update the challenge list in frontend-app/src/components/DeploymentForm.vue by adding a new entry with your challenge details (title, description, technologies). Remember to change ID number!
     ```javascript
         {
             id: 4,
@@ -133,25 +131,11 @@ To add new challenges to the CloudTinker platform, follow these steps:
         }
     ```
 
-3. Update the backend logic:
 
-    * In the /backend-app/app.py file, add an API route for handling the deployment logic of your new challenge.
-    * Update the challenge list in ***/src/components/ChallengeData.vue*** by adding a new entry with your challenge details (title, description, technologies).
-
-    ```python
-        @app.route('/deploy/kubernetes-cluster', methods=['POST'])
-        def deploy_kubernetes_cluster():
-            data = request.get_json()
-            project_id = data.get('projectID')
-            status = trigger_terraform_apply(module="kubernetes", project_id=project_id)
-            return jsonify({"status": status})
-        ```
-4. Test the new challenge:
+3. Test the new challenge:
 
     * After making the necessary changes, test the challenge by interacting with the frontend and backend services.
 ---
-
-## API Documentation
 ### Backend API Endpoints
 The backend service exposes several endpoints to handle the deployment and destruction of infrastructure using Terraform. Below are some common API routes:
 
