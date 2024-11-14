@@ -1,13 +1,13 @@
 <p align="center">
 <img src="images/craft-logo2.svg" alt="description" width="300" height="300" align="center"><p>
 
-# CloudQuest: Real-World Engineer Simulator
+# Cloud Quest: Real-World Engineer Simulator
 
-Welcome to **CloudQuest**, the interactive cloud engineering simulator designed to help you learn real-world cloud architecture skills through hands-on challenges. Whether you're deploying infrastructure with Terraform, setting up CI/CD pipelines, or managing IAM roles, CloudQuest offers a range of challenges to enhance your cloud knowledge and proficiency.
+Welcome to **Cloud Quest**, the interactive cloud engineering simulator designed to help you learn real-world cloud architecture skills through hands-on challenges. Whether you're deploying infrastructure with Terraform, setting up CI/CD pipelines, or managing IAM roles, Cloud Quest offers a range of challenges to enhance your cloud knowledge and proficiency.
 
 ## Table of Contents
 
-- [CloudQuest: Real-World Engineer Simulator](#CloudQuest-real-world-engineer-simulator)
+- [Cloud Quest: Real-World Engineer Simulator](#Cloud Quest-real-world-engineer-simulator)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Getting Started](#getting-started)
@@ -34,7 +34,7 @@ Welcome to **CloudQuest**, the interactive cloud engineering simulator designed 
 
 ### Prerequisites
 
-To run CloudQuest locally, ensure you have the following tools installed:
+To run Cloud Quest locally, ensure you have the following tools installed:
 
 - [Node.js](https://nodejs.org/en/download/)
 - [npm](https://www.npmjs.com/get-npm) or [Yarn](https://yarnpkg.com/getting-started/install)
@@ -46,8 +46,8 @@ To run CloudQuest locally, ensure you have the following tools installed:
 1. **Clone the repository**:
 
    ```bash
-    git clone https://github.com/damian-sztankowski/CloudQuest.git
-    cd cloudquest
+    git clone https://github.com/damian-sztankowski/Cloud Quest.git
+    cd Cloud Quest
     ```
 2. Install frontend dependencies:
 
@@ -65,10 +65,10 @@ To run CloudQuest locally, ensure you have the following tools installed:
 
 ## Project Structure
 
-The CloudQuest project is structured into several main directories:
+The Cloud Quest project is structured into several main directories:
     
 ```bash
-    cloudquest/
+    Cloud Quest/
     │
     ├── frontend-app/             # Vue.js frontend code
     │   ├── src/
